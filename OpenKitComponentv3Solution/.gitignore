@@ -3,3 +3,5 @@
 # msbuild output directories
 /bin
 /obj
+/src
+OpenKitComponentv3Solution.cdsproj
