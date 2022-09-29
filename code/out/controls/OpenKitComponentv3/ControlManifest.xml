@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+  <control namespace="OpenKitComponentv3NS" constructor="OpenKitComponentv3" version="0.0.1" display-name-key="OpenKitComponentv3" description-key="OpenKitComponentv3 description" control-type="standard" api-version="1.3.4">
+    <external-service-usage enabled="false"/>
+    <type-group name="types">
+      <type>Whole.None</type>
+      <type>Currency</type>
+      <type>FP</type>
+      <type>Decimal</type>
+    </type-group>
+    <property name="platformType" display-name-key="platformTypeDisplayKey" description-key="Is used to determine the platform, browser or mobile" of-type-group="types" usage="input" required="false"/>
+    <resources>
+      <code path="bundle.js" order="1"/>
+    </resources>
+    <built-by name="pac" version="1.18.4"/>
+  </control>
+</manifest>
